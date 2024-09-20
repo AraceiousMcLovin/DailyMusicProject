@@ -62,22 +62,29 @@
             </a><!-- O codigo <a> cria links -->
 
               <!-- Menu -->
-              <nav>
+              <nav id="navmenu" class="navmenu">
                 <ul>
                   <!-- no final da linha aperte shif + alt + seta pra baixo e assim copiando a linha selecionada para baixo -->
-                  <li>  <a href=""> Home </a> </li>
-                  <li>  <a href=""> Sobre </a> </li>
-                  <li>  <a href=""> Serviços </a> </li>
-                  <li>  <a href=""> Departamentos </a> </li>
-                  <li>  <a href=""> Médicos </a> </li>
-                  <li>  <a href=""> Contato </a> </li>
-                  <li>  <a href=""> Mais opções </a> 
+                  <li>  <a href="#hero" class="active"> Home </a> </li>
+                  <li>  <a href="#sobre"> Sobre </a> </li>
+                  <li>  <a href="#servicos"> Serviços </a> </li>
+                  <li>  <a href="#departamentos"> Departamentos </a> </li>
+                  <li>  <a href="#medicos"> Médicos </a> </li>
+                  <li>  <a href="#contato"> Contato </a> </li>
+                  <li class="dropdown">  <a href="#maisopcoes">
+                    <span> Mais opções</span>
+                    <i class="bi bi-chevron-down"></i>
+                   </a> 
                   <ul>
-                    <li> Opção 1</li>
-                    <li> Sumenu
+                    <li> <a href="#">Opção 1</a></li>
+                    <li> <a href="#">Opção 2</a></li>
+                    <li class="dropdown"> <a href="#">
+                      <span> Sumenu </span>
+                      <i class="bi bi-chevron-down"></i>
+                    </a></li>
                       <ul>
-                        <li>Submenu 1</li>
-                        <li>Submenu 2</li>
+                        <li> <a href="#">Submenu 1</a></li>
+                        <li> <a href="#">Submenu 2</a></li>
                       </ul>
                     </li><!-- Fim do sbmenu -->
                   </ul>
